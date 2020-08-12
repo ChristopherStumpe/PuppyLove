@@ -13,6 +13,11 @@ CREATE TABLE IF NOT EXISTS user(
 	longitude DECIMAL NOT NULL,
 	home_latitude DECIMAL NOT NULL,
 	home_longitude DECIMAL NOT NULL,
+	pref_breed TEXT NOT NULL,
+	pref_age INT NOT NULL,
+	pre_weight INT NOT NULL,
+	pref_fixed TINYINT(1) NOT NULL,
+	pref_distance INT NOT NULL,
 	PRIMARY KEY(id)
 );
 
